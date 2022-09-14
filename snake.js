@@ -1,3 +1,4 @@
+
 let canvas = document.getElementById("snake");
 let ctx = canvas.getContext("2d");
 
@@ -48,3 +49,4 @@ drawSnake();
 
 setInterval(update, 25)
 addEventListener('keydown', changeDirection);
+ 
